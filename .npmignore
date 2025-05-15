@@ -1,0 +1,38 @@
+# Diretórios e arquivos de desenvolvimento
+src/
+tests/
+coverage/
+.vscode/
+.idea/
+public/
+
+# Arquivos de configuração que não são necessários no pacote final
+*.config.js
+*.config.json
+jest.config.js
+vite.config.js
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+
+# Arquivos de ambiente (geralmente utilizados apenas em ambiente local)
+.env
+.env.local
+.env.*.local
+
+# Node modules (não precisa ser enviado, vem do npm install)
+node_modules/
+
+# Arquivos e diretórios de build, se você estiver usando uma abordagem de "source files" diferente
+# Caso esteja publicando apenas o conteúdo da pasta dist (definida em "files" no package.json),
+# você pode ignorar o restante dos arquivos.
+!dist/
+
+# Arquivos temporários e logs
+*.log
+tmp/
+*.tmp
+
+# Documentação extra opcional (se quiser distribuir apenas o README.md, por exemplo)
+docs/
